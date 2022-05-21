@@ -1,0 +1,90 @@
+.head-foot {
+    margin: 0 auto;
+    max-width: 1200px;
+    padding-bottom: 2rem;
+    display: inline;
+
+
+    p {
+        margin-left: 7rem;
+        font-size: $font-medium;
+        color: $color-05;
+        font-weight: bold;
+    }
+
+    h4{
+        padding-left: 12px;
+        margin-left: 7rem;
+        display: inline;
+        border-radius: 3px;
+        font-size: $font-giant;
+        width: 0%;
+        border-bottom: $border-block;
+        border-top: $border-block;
+        transition: 1s;
+
+        a{
+          text-decoration: none;
+          color: rgb(255, 130, 5);
+          transition: 0.5s;
+          
+        }
+
+        a:hover{
+            color: rgb(200, 100, 0);
+            transition: 0.5s;
+            
+        }
+
+        a:hover::after{
+            color: rgb(255, 130, 5);
+            transition: 0.5s;
+        }
+
+    }
+
+    h4:hover{
+        border-radius: 20px;
+        transition: 1s ;
+    }
+
+    h4:hover::after{
+        border-radius: 3px;
+        transition: 1s;
+    }
+
+    .menu-nav{
+        display: inline;
+        list-style: none;
+        list-style: none;
+        font-size: $font-medium;
+        margin-bottom: 0;
+        padding-bottom: 0;
+        margin-left: 50rem;
+        
+
+        li{
+            display: inline !important;
+            margin-left: 10px;
+
+
+            a{
+                text-decoration: none;
+                color: rgb(255, 130, 5);
+                font-weight: bold;
+                border-bottom: 2px solid black;
+                border-radius: 3px;
+                padding: 3px 2px 3px 2px;
+                transition: 1s;
+            
+            }
+
+            a:hover{
+                color: rgb(153, 77, 0);
+                transition: 1s;
+            }
+        }
+
+    }
+
+}
